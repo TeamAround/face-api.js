@@ -550,7 +550,7 @@
     }());
 
     function createBrowserEnv() {
-        var fetch = window['fetch'] || function () {
+        var fetch = window && window['fetch'] ? window['fetch'] : function () {
             throw new Error('fetch - missing fetch implementation for browser environment');
         };
         var readFile = function () {
