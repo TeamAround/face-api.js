@@ -35,8 +35,8 @@
   "author": "justadudewhohacks",
   "license": "MIT",
   "dependencies": {
-    "@tensorflow/tfjs-core": "0.14.2",
-    "tfjs-image-recognition-base": "^0.4.1",
+    "@tensorflow/tfjs-core": "git+https://github.com/TeamAround/tfjs-core.git#0.15.x",
+    "tfjs-image-recognition-base": "git+https://github.com/TeamAround/tfjs-image-recognition-base.git",
     "tslib": "^1.9.3"
   },
   "devDependencies": {
