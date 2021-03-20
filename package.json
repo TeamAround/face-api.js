@@ -36,7 +36,7 @@
   "license": "MIT",
   "dependencies": {
     "@tensorflow/tfjs-core": "git+https://github.com/TeamAround/tfjs-core.git#0.15.x",
-    "tfjs-image-recognition-base": "git+https://github.com/TeamAround/tfjs-image-recognition-base.git",
+    "tfjs-image-recognition-base": "git+https://github.com/TeamAround/tfjs-image-recognition-base.git#mann/update-canvas-dev-dep",
     "tslib": "^1.9.3"
   },
   "devDependencies": {
